@@ -1,3 +1,5 @@
+> **Moved.** This plugin now lives in [EnderWolf50/claude-plugins](https://github.com/EnderWolf50/claude-plugins/tree/main/plugins/search-tools) (marketplace `enderwolf50`, install with `claude plugin install search-tools@enderwolf50`). This repo is archived; history was imported there with git subtree.
+
 # search-tools
 
 Keeps a [tgrep](https://github.com/microsoft/tgrep) (trigram-indexed grep) server alive for large repos only while a [Claude Code](https://code.claude.com) session is using them, and ships a reference skill for the search tools Claude routes between: `tgrep`, `ast-grep`, `semble`, `ripgrep`.
